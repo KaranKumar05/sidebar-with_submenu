@@ -1,0 +1,19 @@
+.sidebarLinks {
+    background: linear-gradient(to bottom, #03045E, #627cfe);
+    color: white;
+    /* background-image: linear-gradient(rgb(17, 24, 39), rgb(88, 28, 135), rgb(124, 58, 237)); */
+
+
+}
+
+.usernameContainer {
+    background-color: #03045E;
+    color: white;
+}
+
+@media (max-width:767px) {
+    .sidebarContainer {
+        margin-top: 2rem;
+    }
+
+}

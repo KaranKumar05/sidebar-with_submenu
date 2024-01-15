@@ -1,0 +1,23 @@
+.chartAccountContainer,
+.groupHeadContainer,
+.subHeadContainer,
+.accountDetailsContainer {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: white;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+@media (max-width:890px) {
+    .groupHeadInputContainer,
+    .subHeadInputContainer,
+    .chartAccountInputContainer,
+    .accountDetailsInputContainer{
+        flex-direction: column;
+    }
+}
